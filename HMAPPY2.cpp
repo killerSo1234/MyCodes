@@ -4,13 +4,14 @@ using namespace std;
 
 int main()
 {
-	long int t,n,a,b,k,w,g;
+	long int t,n,a,b,k,w,g,l;
 	cin>>t;
 	while(t--)
 	{
 		cin>>n>>a>>b>>k;
 		g=__gcd(a,b);
-		w=n/a+n/b+2*(a*b)/g;
+		l=a*b/g;
+		w=n/a+n/b-2*(n/l);
 		if(w>=k)
 			cout<<"Win";
 		else
