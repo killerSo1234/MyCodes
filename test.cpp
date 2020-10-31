@@ -8,6 +8,7 @@ public:
     {
         vector<int> ans;
         bool flag = true;
+//         Test
         int size = input.length();
         for (size_t i = 0; i < size; i++)
         {
