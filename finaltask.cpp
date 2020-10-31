@@ -9,6 +9,7 @@ int gcd(int a, int b)
 
 }
 
+
 int main()
 {
     int N, i, max=1, res=0;
